@@ -50,8 +50,20 @@ for (let i = 0; i < 6; i++) {
   ellipse(0, 0, 120, 30);
   pop();
 }
+
+// foglie
+fill("#38ab6aff");
+for (let i = 0; i < 4; i++) {
+  let angle = PI * 2 * (i / 9);
+  let x = 120 + cos(angle) * 60;
+  let y = 380 + sin(angle) * 60;
+  push();
+  translate(300, 380);
+  rotate(angle);
+  ellipse(0, 0, 40, 10);
+  pop();
+}
  
-  
 
 noStroke();
 

@@ -7,7 +7,7 @@ let nuvoleX = 0;   // per movimento nuvole
 
 
 function setup () {
-  createCanvas(800, 800);
+  createCanvas(800, 600);
 }
 
 function draw() {

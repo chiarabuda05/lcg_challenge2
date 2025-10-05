@@ -52,9 +52,6 @@ for (let i = 0; i < 6; i++) {
 }
  
   
-  ellipse(1, 1, 190, 30);
-  pop();
-
 
 noStroke();
 

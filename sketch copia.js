@@ -92,7 +92,7 @@ tempoSole += 0.02; // velocità pulsazione
 
  
   // nuvole che si muovono
-fill("#f5f3f3ff");
+fill("#ffffffff");
 nuvoleX += 0.5; // velocità nuvole
 if (nuvoleX > width + 200) { // reset quando escono
   nuvoleX = -200;

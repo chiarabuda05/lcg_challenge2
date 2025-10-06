@@ -97,7 +97,8 @@ nuvoleX += 0.5; // velocità nuvole
 if (nuvoleX > width + 200) { // reset quando escono
   nuvoleX = -200;
 }
-  {
+
+{
 ellipse(60 + nuvoleX, 80, 150, 70);
 ellipse(160 + nuvoleX, 110, 150, 100);
 ellipse(200 + nuvoleX, 150, 160, 90); 

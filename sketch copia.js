@@ -92,7 +92,7 @@ tempoSole += 0.02; // velocità pulsazione
 
  
   // nuvole che si muovono
-fill("#f5f3f3f5");
+fill("#f5f3f3ff");
 nuvoleX += 0.5; // velocità nuvole
 if (nuvoleX > width + 200) { // reset quando escono
   nuvoleX = -200;
@@ -103,7 +103,7 @@ ellipse(160 + nuvoleX, 110, 150, 100);
 ellipse(200 + nuvoleX, 150, 160, 90); 
 ellipse(300 + nuvoleX, 110, 100, 60);
 ellipse(350 + nuvoleX, 130, 150, 80);
-fill("#f7f7f7af");
+fill("#ffffffff");
 ellipse(250 + nuvoleX, 150, 150, 100);
 ellipse(110 + nuvoleX, 150, 170, 80); 
 ellipse(80 + nuvoleX, 100, 100, 80);
